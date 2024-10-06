@@ -1,0 +1,11 @@
+Question,Answer
+Explain the pumping lemma for regular languages. How is it used to prove that a language is not regular?
+What is the closure property of regular languages? Provide examples of operations that regular languages are closed under.
+Discuss the relationship between context-free languages and pushdown automata.
+How does the Myhill-Nerode Theorem help in minimizing DFA?
+Compare deterministic and non-deterministic Turing machines. Are they equivalent in computational power?
+What are the limitations of finite automata when dealing with certain languages? Give an example.
+How can a regular expression be converted into a DFA? Outline the process.
+"What are the differences between Type 0, Type 1, Type 2, and Type 3 languages in the Chomsky hierarchy?"
+What is ambiguity in a context-free grammar? How can ambiguity be resolved?
+"What is meant by ""decidability"" and ""undecidability"" in the Theory of Computation?"

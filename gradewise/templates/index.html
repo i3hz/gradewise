@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Quiz App</h1>
+        <p>Enhance your knowledge with our engaging quizzes!</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Welcome to the Quiz App</h1>
+        <p class="description">Please enter your grade to start the quiz. Our quizzes are designed to help you learn and assess your knowledge in a fun and interactive way.</p>
+        <form action="/quiz" method="POST">
+            <label for="grade">Enter your grade (7.5 - 10): </label>
+            <input type="number" step="0.1" id="grade" name="grade" min="7.5" max="10" placeholder="e.g., 8.5" required>
+            <button type="submit">Start Quiz</button>
+        </form>
+    </div>
+
+    <!-- Additional Content: Features -->
+    <div class="features">
+        <h2>Why Choose Our Quiz App?</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <img src="https://img.icons8.com/ios-filled/100/000000/idea.png" alt="Engaging Content Icon">
+                <h3>Engaging Content</h3>
+                <p>Our quizzes cover a wide range of topics to keep you engaged and informed.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/ios-filled/100/000000/time-machine.png" alt="Flexible Timing Icon">
+                <h3>Flexible Timing</h3>
+                <p>Take quizzes at your own pace, anytime and anywhere.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/ios-filled/100/000000/certificate.png" alt="Certification Icon">
+                <h3>Certification</h3>
+                <p>Earn certificates to showcase your achievements and knowledge.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://img.icons8.com/ios-filled/100/000000/teamwork.png" alt="Community Support Icon">
+                <h3>Community Support</h3>
+                <p>Join a community of learners and experts to enhance your learning experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Quiz App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

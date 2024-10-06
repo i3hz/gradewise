@@ -1,0 +1,11 @@
+Question,Answer
+Discuss the role of real-time data visualization in modern applications. How do tools like Plotly and Bokeh handle real-time updates?
+"How do you optimize data visualizations for performance, especially when dealing with large datasets?"
+Explain the significance of data preprocessing in creating effective visualizations. How does poor data quality impact the final visualizations?
+"Compare different visualization libraries in Python (e.g., Matplotlib, Seaborn, Plotly) in terms of flexibility, ease of use, and interactivity."
+How do visualization techniques differ when dealing with time-series data as opposed to cross-sectional data?
+Discuss the challenges of designing visualizations for multidimensional data. How can techniques like parallel coordinates and radar charts be used effectively?
+How does geospatial data visualization differ from traditional data visualization? Explain with examples.
+Explain the role of animations in data visualization. What are the potential benefits and drawbacks of using animations in a dashboard?
+How do visualizations enhance the process of exploratory data analysis (EDA)? Provide examples of how it aids in hypothesis generation.
+Describe a scenario where you would use a combination of different visualization types to present a complex dataset. Explain your choice of visualizations.

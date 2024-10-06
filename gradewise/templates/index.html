@@ -10,15 +10,15 @@
 </head>
 <body>
     
-    <header>
-        <h1>Quiz App</h1>
-        <p>Enhance your knowledge with our engaging quizzes!</p>
-    </header>
+    <div class="header">
+        <h1 class="header-text">Quiz App</h1>
+        <p class="para-text">Enhance your knowledge with our engaging quizzes!</p>
+    </div>
 
     <!-- Main Container -->
-    <div class="container">
-        <h1>Welcome to the Quiz App</h1>
-        <p class="description">Please enter your grade to start the quiz. Our quizzes are designed to help you learn and assess your knowledge in a fun and interactive way.</p>
+    <div class="content-container">
+        <h1 class="Content-heading">Welcome to the Quiz App</h1>
+        <p class="content">Please enter your grade to start the quiz. Our quizzes are designed to help you learn and assess your knowledge in a fun and interactive way.</p>
         <form action="/quiz" method="POST">
             <label for="grade">Enter your grade (7.5 - 10): </label>
             <input type="number" step="0.1" id="grade" name="grade" min="7.5" max="10" placeholder="e.g., 8.5" required>

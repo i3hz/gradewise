@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    min-height: 100vh;
+    padding-top: 50px; /* Add space at the top */
+}
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 60%;  /* Increase width for better visibility */
+    text-align: left;
+    margin-bottom: 50px; /* Add bottom margin to prevent cut-off */
+    margin-top: 30px; /* Ensure container starts below the top */
+}
+h1 {
+    color: #333;
+    margin-bottom: 30px; /* Add space after the heading */
+}
+.question {
+    margin-bottom: 30px; /* Increase space between questions */
+}
+.question p {
+    font-size: 1.2em;  /* Slightly larger text */
+    color: #555;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    padding: 12px; /* Padding for better visibility */
+    width: 100%;  /* Make input fields full width */
+    font-size: 1em;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 40px; /* Set minimum height for input fields */
+}
+button {
+    background-color: #071a22;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+button:hover {
+    background-color: #000e17;
+}
+
+img{
+    width: 750px;
+    opacity: 0.90;
+    margin-left: 0px;
+    margin-bottom: 16px;
+}
+.image-container {
+    position: relative;
+    
+}
+
+.image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0a2b39; 
+}
+
+.image-overlay h1 {
+    font-size: 36px;
+}
+
+.image-overlay p {
+    font-size: 24px;
+    font-weight: 600;
+}

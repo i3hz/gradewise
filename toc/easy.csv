@@ -1,0 +1,11 @@
+Question,Answer
+"What is the Theory of Computation, and why is it important?"
+Define a Turing machine and its significance in computation.
+What is a finite automaton? Explain the difference between deterministic and non-deterministic finite automata (DFA and NFA).
+Explain what a regular language is. Give an example.
+What is a grammar in the context of formal languages?
+Define a context-free grammar (CFG) and provide an example.
+What is the Chomsky hierarchy? Briefly describe its levels.
+What is the difference between a regular expression and a regular grammar?
+"What is a pushdown automaton (PDA), and how does it differ from a finite automaton?"
+Explain the halting problem and its significance.

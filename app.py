@@ -5,7 +5,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Length
 
-
+#add dropdown for subject 
 app = Flask(__name__)
 app.secret_key = 'efhisughjfkdvgdnlg'
 
@@ -15,7 +15,7 @@ class LoginForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
     submit = SubmitField('Login')
 
-users = {'user1': 'password1'}
+users = {'ved': 'password'}
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -23,12 +23,21 @@ def login():
     if form.validate_on_submit():
         username = form.username.data
         password = form.password.data
+        
+        # Debug output
+        print(f"Username: {username}, Password: {password}")
 
         if username in users and users[username] == password:
+            flash('You have successfully logged in.', 'success')
+            print("Redirecting to home...")
             return redirect(url_for('home'))
         else:
             flash('Invalid credentials, please try again.')
+    else:
+        print("Form validation failed:", form.errors)  # Check for validation errors
+    
     return render_template('login.html', form=form)
+
 
 
 def load_questions_from_csv(filename):
